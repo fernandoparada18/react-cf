@@ -4,6 +4,7 @@
   "description": "Curso de reactjs de codigo facilito",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/fernandoparada18/react-cf/issues"
   },
-  "homepage": "https://github.com/fernandoparada18/react-cf#readme"
+  "homepage": "https://github.com/fernandoparada18/react-cf#readme",
+  "dependencies": {
+    "babel-loader": "^6.4.1",
+    "babel-plugin-add-module-exports": "^0.1.4",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
 }
