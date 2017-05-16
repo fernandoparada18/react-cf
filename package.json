@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Curso de reactjs de codigo facilito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoparada18/react-cf.git"
+  },
+  "author": "Fernando Parada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandoparada18/react-cf/issues"
+  },
+  "homepage": "https://github.com/fernandoparada18/react-cf#readme"
+}
