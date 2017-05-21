@@ -4,7 +4,7 @@
   "description": "Curso de reactjs de codigo facilito",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot",
+    "start": "./node_modules/.bin/webpack-dev-server --content-base app/dist --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
